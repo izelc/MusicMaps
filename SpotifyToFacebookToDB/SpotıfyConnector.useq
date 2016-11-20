@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true">  
+  <object id="1" language="java" name="extractors.SpotifyUserConnector" project="SpotifyToFacebookToDB" 
+    file="/SpotifyToFacebookToDB/src/main/java/extractors/SpotifyUserConnector.java" binary="false" 
+    label="spotifyUserConnector" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="48" y="0"/>    
+    <execution id="2">      
+      <position height="436" width="0" x="0" y="105"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="379" width="0" x="0" y="143"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="19" width="0" x="0" y="456"/>    
+    </execution>  
+  </object>  
+  <object id="23" language="java" name="com.wrapper.spotify.Api" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="api" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="19" width="0" x="0" y="171"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="com.wrapper.spotify.methods.UserRequest.Builder" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="19" width="0" x="0" y="209"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="19" width="0" x="0" y="247"/>    
+    </execution>  
+  </object>  
+  <object id="25" language="java" name="com.wrapper.spotify.models.User" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="user" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="12">      
+      <position height="19" width="0" x="0" y="285"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="19" width="0" x="0" y="323"/>    
+    </execution>  
+  </object>  
+  <object id="26" language="java" name="java.util.List" project="SpotifyToFacebookToDB" 
+    file="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar" binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="19" width="0" x="0" y="361"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="19" width="0" x="0" y="399"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="extractors.SpotifyUser" project="SpotifyToFacebookToDB" 
+    file="/SpotifyToFacebookToDB/src/main/java/extractors/SpotifyUser.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="22">      
+      <position height="19" width="0" x="0" y="484"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="getUser(java.lang.String):extractors.SpotifyUser">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="getUser(java.lang.String):com.wrapper.spotify.methods.UserRequest.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="build():com.wrapper.spotify.methods.UserRequest">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="get():com.wrapper.spotify.models.User">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="getDisplayName():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="getImages():java.util.List&lt;com.wrapper.spotify.models.Image&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="getUrl():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="editImageUrl(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="SpotifyUser(java.lang.String,java.lang.String)">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true">  
+  <object id="1" language="java" name="extractors.SongFinder" project="SpotifyToFacebookToDB" 
+    file="/SpotifyToFacebookToDB/src/main/java/extractors/SongFinder.java" binary="false" label="songFinder" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="207" y="0"/>    
+    <execution id="2">      
+      <position height="1395" width="0" x="0" y="78"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="1338" width="0" x="0" y="116"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="19" width="0" x="0" y="429"/>    
+    </execution>    
+    <execution id="56">      
+      <position height="19" width="0" x="0" y="1160"/>    
+    </execution>  
+  </object>  
+  <object id="71" language="java" name="java.util.ArrayList" project="SpotifyToFacebookToDB" 
+    file="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar" binary="true" label="tracklist" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="58">      
+      <position height="19" width="0" x="0" y="1188"/>    
+    </execution>  
+  </object>  
+  <object id="72" language="java" name="com.wrapper.spotify.Api" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="6">      
+      <position height="19" width="0" x="0" y="182"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="19" width="0" x="0" y="457"/>    
+    </execution>  
+  </object>  
+  <object id="73" language="java" name="com.wrapper.spotify.Api.Builder" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="19" width="0" x="0" y="220"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="19" width="0" x="0" y="258"/>    
+    </execution>  
+  </object>  
+  <object id="74" language="java" name="com.wrapper.spotify.Api" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="api" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="12">      
+      <position height="19" width="0" x="0" y="296"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="19" width="0" x="0" y="571"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="19" width="0" x="0" y="799"/>    
+    </execution>  
+  </object>  
+  <object id="75" language="java" name="com.wrapper.spotify.methods.UserPlaylistsRequest.Builder" 
+    project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="14">      
+      <position height="19" width="0" x="0" y="334"/>    
+    </execution>  
+  </object>  
+  <object id="76" language="java" name="com.wrapper.spotify.methods.UserPlaylistsRequest" 
+    project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="request" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="19" width="0" x="0" y="372"/>    
+    </execution>  
+  </object>  
+  <object id="77" language="java" name="com.wrapper.spotify.Api.Builder" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="22">      
+      <position height="19" width="0" x="0" y="495"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="19" width="0" x="0" y="533"/>    
+    </execution>  
+  </object>  
+  <object id="78" language="java" name="com.wrapper.spotify.methods.UserPlaylistsRequest.Builder" 
+    project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="28">      
+      <position height="19" width="0" x="0" y="609"/>    
+    </execution>  
+  </object>  
+  <object id="79" language="java" name="com.wrapper.spotify.methods.UserPlaylistsRequest" 
+    project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="request1" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="30">      
+      <position height="19" width="0" x="0" y="647"/>    
+    </execution>  
+  </object>  
+  <object id="80" language="java" name="com.wrapper.spotify.models.Page" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="playlistsPage" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="32">      
+      <position height="19" width="0" x="0" y="685"/>    
+    </execution>  
+  </object>  
+  <object id="81" language="java" name="com.wrapper.spotify.models.SimplePlaylist" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="simplePlaylist" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="34">      
+      <position height="19" width="0" x="0" y="723"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="19" width="0" x="0" y="837"/>    
+    </execution>  
+  </object>  
+  <object id="82" language="java" name="com.wrapper.spotify.models.User" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="36">      
+      <position height="19" width="0" x="0" y="761"/>    
+    </execution>  
+  </object>  
+  <object id="83" language="java" name="com.wrapper.spotify.methods.PlaylistTracksRequest.Builder" 
+    project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="42">      
+      <position height="19" width="0" x="0" y="875"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="19" width="0" x="0" y="913"/>    
+    </execution>    
+    <execution id="46">      
+      <position height="19" width="0" x="0" y="951"/>    
+    </execution>  
+  </object>  
+  <object id="84" language="java" name="com.wrapper.spotify.models.PlaylistTrack" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="playlistTrack" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="48">      
+      <position height="19" width="0" x="0" y="989"/>    
+    </execution>  
+  </object>  
+  <object id="85" language="java" name="com.wrapper.spotify.models.Track" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="track" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="50">      
+      <position height="19" width="0" x="0" y="1027"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="19" width="0" x="0" y="1264"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="19" width="0" x="0" y="1302"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="19" width="0" x="0" y="1416"/>    
+    </execution>  
+  </object>  
+  <object id="86" language="java" name="java.util.List" project="SpotifyToFacebookToDB" 
+    file="/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar" binary="true" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="52">      
+      <position height="19" width="0" x="0" y="1065"/>    
+    </execution>  
+  </object>  
+  <object id="87" language="java" name="com.wrapper.spotify.models.SimpleArtist" project="SpotifyToFacebookToDB" 
+    file="/home/izel/.m2/repository/se/michaelthelin/spotify/spotify-web-api-java/1.5.0/spotify-web-api-java-1.5.0.jar" 
+    binary="true" label="artist" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="54">      
+      <position height="19" width="0" x="0" y="1103"/>    
+    </execution>    
+    <execution id="60">      
+      <position height="19" width="0" x="0" y="1226"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="19" width="0" x="0" y="1378"/>    
+    </execution>  
+  </object>  
+  <object id="88" language="java" name="extractors.Track" project="SpotifyToFacebookToDB" 
+    file="/SpotifyToFacebookToDB/src/main/java/extractors/Track.java" binary="false" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="66">      
+      <position height="19" width="0" x="0" y="1340"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="getPlaylist(java.lang.String):java.util.ArrayList&lt;Track&gt;">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="builder():com.wrapper.spotify.Api.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="accessToken(java.lang.String):com.wrapper.spotify.Api.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="build():com.wrapper.spotify.Api">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" 
+    operation="getPlaylistsForUser(java.lang.String):com.wrapper.spotify.methods.UserPlaylistsRequest.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="build():com.wrapper.spotify.methods.UserPlaylistsRequest">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="get():com.wrapper.spotify.models.Page&lt;com.wrapper.spotify.models.SimplePlaylist&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="authorize():void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="builder():com.wrapper.spotify.Api.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="accessToken(java.lang.String):com.wrapper.spotify.Api.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="build():com.wrapper.spotify.Api">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" 
+    operation="getPlaylistsForUser(java.lang.String):com.wrapper.spotify.methods.UserPlaylistsRequest.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="build():com.wrapper.spotify.methods.UserPlaylistsRequest">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="get():com.wrapper.spotify.models.Page&lt;com.wrapper.spotify.models.SimplePlaylist&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="31" operation="getItems():java.util.List&lt;T&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="getOwner():com.wrapper.spotify.models.User">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" operation="getId():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" 
+    operation="getPlaylistTracks(java.lang.String,java.lang.String):com.wrapper.spotify.methods.PlaylistTracksRequest.Builder">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" operation="getId():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" operation="build():com.wrapper.spotify.methods.PlaylistTracksRequest">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" operation="get():com.wrapper.spotify.models.Page&lt;com.wrapper.spotify.models.PlaylistTrack&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" operation="getItems():java.util.List&lt;T&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="47" operation="getTrack():com.wrapper.spotify.models.Track">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="48"/>  
+  </message>  
+  <message id="49" operation="getArtists():java.util.List&lt;com.wrapper.spotify.models.SimpleArtist&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="51" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="53" operation="getId():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="55" operation="findGenre(com.wrapper.spotify.models.SimpleArtist,java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="57" operation="add(E):boolean">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="58"/>  
+  </message>  
+  <message id="59" operation="getName():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="60"/>  
+  </message>  
+  <message id="61" operation="getName():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" operation="getId():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" 
+    operation="Track(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="getName():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="getName():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>
+</sequence-diagram>
